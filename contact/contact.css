@@ -159,7 +159,7 @@ a:hover {
 
 @media (max-width: 768px) {
     .text {
-        font-size: 3emem;
+        font-size: 3em;
         padding-left: 20px;
         padding-right: 30px;
     }
@@ -201,13 +201,13 @@ main {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: ease-in-out 200ms;
+    transition: ease-in-out 2s;
 }
 
 .submit:hover {
     color: #2e529f;
     background-color: #fff;
-    transition: ease-in-out 200ms;
+    transition: ease-in-out 2s;
     border: 1px solid #2e529f;
 }
 
