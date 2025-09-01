@@ -201,13 +201,13 @@ main {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: ease-in-out 2s;
+    transition: ease-in-out 300ms;
 }
 
 .submit:hover {
     color: #2e529f;
     background-color: #fff;
-    transition: ease-in-out 2s;
+    transition: ease-in-out 300ms;
     border: 1px solid #2e529f;
 }
 
