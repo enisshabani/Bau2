@@ -33,6 +33,8 @@ const translations = {
         "footer_about_text": "BAU 2 isch e Schwiizer Baufirma, wo sich druf spezialisiert het, hochwertigi, zuverlässigi und nachhaltigi Lösige z’liefere. Mit em Fokus uf Präzision, Innovation und Kundevertraue verwandle mir Ideä i langlebigi Strukture.",
         "footer_useful_links": "Nützlechi Links",
         "footer_follow_us": "Folge eus",
+        "footer_cta_title": "Bereit für Ihr nächstes Projekt?",
+        "footer_cta_desc": "Lassen Sie uns gemeinsam Grosses schaffen. Kontaktieren Sie uns für eine unverbindliche Beratung."
     },
     "en": {
         "nav_home": "Home",
@@ -67,7 +69,9 @@ const translations = {
         "footer_write_us": "Write us",
         "footer_about_text": "BAU 2 is a Swiss construction company specializing in delivering high-quality, reliable, and sustainable solutions. With a focus on precision, innovation, and customer trust, we transform ideas into lasting structures.",
         "footer_useful_links": "Useful Links",
-        "footer_follow_us": "Follow us"
+        "footer_follow_us": "Follow us",
+        "footer_cta_title": "Ready for your next project?",
+        "footer_cta_desc": "Let's create something great together. Contact us for a non-binding consultation."
     },
     "it": {
         "nav_home": "Home",
@@ -98,7 +102,9 @@ const translations = {
         "footer_write_us": "Scrivici",
         "footer_about_text": "BAU 2 è un'impresa di costruzioni svizzera specializzata nella fornitura di soluzioni di alta qualità, affidabili e sostenibili. Con particolare attenzione alla precisione, all'innovazione e alla fiducia dei clienti, trasformiamo le idee in strutture durature.",
         "footer_useful_links": "Link utili",
-        "footer_follow_us": "Seguici"
+        "footer_follow_us": "Seguici",
+        "footer_cta_title": "Pronto per il tuo prossimo progetto?",
+        "footer_cta_desc": "Creiamo qualcosa di grande insieme. Contattaci per una consulenza senza impegno."
     },
     "fr": {
         "nav_home": "Accueil",
@@ -107,7 +113,7 @@ const translations = {
         "nav_contact": "Contact",
         "banner1_text": "Nous construisons avec intégrité, précision et soin, toujours avec la promesse de la plus haute qualité dans chaque projet.",
         "who_we_are_title": "Qui sommes-nous",
-        "who_we_are_desc": "Nous sommes une entreprise de construction dévouée, spécialisée dans la construction de bâtiments de haute qualité qui résistent à l'épreuve du temps. Avec des valeurs fortes et des normes industrielles, nous combinons l'artisanat, des solutions innovantes et une passion pour l'excellence pour donner vie à chaque projet.",
+        "who_we_are_desc": "Nous sommes une entreprise de construction dévouée, spécialisée dans la construction de bâtiments de haute qualité qui réistent à l'épreuve du temps. Avec des valeurs fortes et des normes industrielles, nous combinons l'artisanat, des solutions innovantes et une passion pour l'excellence pour donner vie à chaque projet.",
         "banner2_text": "Poussés par la passion, guidés par la qualité, nous nous engageons pleinement dans chaque projet, des fondations à l'achèvement.",
         "dedication_title": "Notre dévouement",
         "dedication_desc": "Chaque projet est pour nous plus qu'un simple travail, c'est une promesse. Nous nous engageons à la précision, à la qualité et à l'attention aux détails, pour que chaque construction soit un signe de notre artisanat et de notre soin.",
@@ -129,7 +135,9 @@ const translations = {
         "footer_write_us": "Écrivez-nous",
         "footer_about_text": "BAU 2 est une entreprise de construction suisse spécialisée dans la fourniture de solutions de haute qualité, fiables et durables. En mettant l'accent sur la précision, l'innovation et la confiance des clients, nous transformons les idées en structures durables.",
         "footer_useful_links": "Liens utiles",
-        "footer_follow_us": "Suivez-nous"
+        "footer_follow_us": "Suivez-nous",
+        "footer_cta_title": "Prêt pour votre prochain projet ?",
+        "footer_cta_desc": "Créons quelque chose de grand ensemble. Contactez-nous pour une consultation sans engagement."
     }
 };
 

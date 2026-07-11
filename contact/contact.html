@@ -12,9 +12,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <!-- Scrollreveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -56,106 +54,95 @@
 
     </header>
 
-    <main>
-        
-            <form action="" method="POST" netlify>
-                <div data-i18n="contact_name">Naame</div><br>
-                <input type="text" id="name" name="name" placeholder="Your Name" required><br>
-                <label for="" data-i18n="contact_email">E-Mail</label><br>
-                <input type="email" id="email" name="email" placeholder="Your Email" required><br>
-                <label for="" data-i18n="contact_subject">Betreff</label><br>
-                <textarea name="message" id="message" placeholder="Your Message" required></textarea><br>
+    <main class="contact-main-container">
+        <div class="contact-card">
+            <form action="" method="POST" netlify class="contact-form">
+                <div class="form-group">
+                    <label for="name" data-i18n="contact_name">Naame</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" data-i18n="contact_email">E-Mail</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" data-i18n="contact_subject">Betreff</label>
+                    <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                </div>
                 <button type="submit" id="submit" class="submit">Send</button>
             </form>
-        
+        </div>
     </main>
-
     <footer class="footer-section">
-        <div class="container">
-            <div class="footer-cta pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="cta-text">
-                                <h4 data-i18n="footer_find_us">Finde eus</h4>
-                                <span>1010 Avenue, sw 54321, chandigarh</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="fas fa-phone"></i>
-                            <div class="cta-text">
-                                <h4 data-i18n="footer_call_us">Ruf eus a</h4>
-                                <span>+41</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="far fa-envelope-open"></i>
-                            <div class="cta-text">
-                                <h4 data-i18n="footer_write_us">Schreib eus</h4>
-                                <span>example@gmail.com</span>
-                            </div>
-                        </div>
-                    </div>
+        <!-- Floating CTA Banner -->
+        <div class="footer-cta-banner">
+            <div class="cta-banner-content">
+                <div class="cta-banner-left">
+                    <h2 data-i18n="footer_cta_title">Bereit für Ihr nächstes Projekt?</h2>
+                    <p data-i18n="footer_cta_desc">Lassen Sie uns gemeinsam Grosses schaffen. Kontaktieren Sie uns für eine unverbindliche Beratung.</p>
                 </div>
-            </div>
-            <div class="footer-content pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 mb-50">
-                        <div class="footer-widget">
-                            <div class="footer-logo">
-                                <a href="../index.html"><img src="../img/logo.png" class="img-fluid" alt="logo"></a>
-                            </div>
-                            <div class="footer-text">
-                                <p data-i18n="footer_about_text">BAU 2 isch e Schwiizer Baufirma, wo sich druf spezialisiert het, hochwertigi,
-                                    zuverlässigi und nachhaltigi Lösige z’liefere. Mit em Fokus uf Präzision, Innovation
-                                    und Kundevertraue verwandle mir Ideä i langlebigi Strukture.</p
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3 data-i18n="footer_useful_links">Nützlechi Links</h3>
-                            </div>
-                            <ul>
-                                <li><a href="../index.html" data-i18n="nav_home">Dihei</a></li>
-                                <li><a href="../Bau2/project/project.html" data-i18n="nav_projects">Projekte</a></li>
-                                <li><a href="../Bau2/aboutUs/aboutUs.html" data-i18n="nav_about">Über üs</a></li>
-                                <li><a href="contact.html" data-i18n="nav_contact">Kontakt</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-                        <div class="footer-widget">
-                            <div class="footer-social-icon">
-                                <h3 data-i18n="footer_follow_us">Folge eus</h3>
-                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                <a href="https://www.instagram.com/bau2_unterlagsboden/"><i
-                                        class="fab fa-instagram instagram-bg"></i></a>
-                                <a href="https://www.threads.com/@bau2_unterlagsboden"><i
-                                        class="fab fa-threads threads-bg"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="cta-banner-right">
+                    <a href="contact.html" class="cta-banner-btn" data-i18n="nav_contact">Kontakt</a>
                 </div>
             </div>
         </div>
-        <div class="copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-20 col-lg-20 text-center text-lg-left">
-                        <div class="copyright-text">
-                            <p>Copyright &copy; 2025, Bau 2 Bodenbeläge GmbH </p>
-                        </div>
-                    </div>
+
+        <!-- Main Footer Links & Info Grid -->
+        <div class="footer-main-grid">
+            <!-- Brand Info -->
+            <div class="footer-brand-col">
+                <div class="footer-logo">
+                    <a href="../index.html"><img src="../img/logo.png" alt="Bau 2 Logo"></a>
+                </div>
+                <p class="brand-text" data-i18n="footer_about_text">BAU 2 isch e Schwiizer Baufirma, wo sich druf spezialisiert het, hochwertigi, zuverlässigi und nachhaltigi Lösige z’liefere. Mit em Fokus uf Präzision, Innovation und Kundevertraue verwandle mir Ideä i langlebigi Strukture.</p>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="footer-links-col">
+                <h3 class="footer-col-title" data-i18n="footer_useful_links">Nützlechi Links</h3>
+                <ul class="footer-links-list">
+                    <li><a href="../index.html" data-i18n="nav_home">Dihei</a></li>
+                    <li><a href="../project/project.html" data-i18n="nav_projects">Projekte</a></li>
+                    <li><a href="../aboutUs/aboutUs.html" data-i18n="nav_about">Über üs</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">Kontakt</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-contact-col">
+                <h3 class="footer-col-title" data-i18n="footer_find_us">Finde eus</h3>
+                <ul class="footer-contact-list">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>1010 Avenue, sw 54321, chandigarh</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <span data-i18n="footer_call_us">Ruf eus a</span>
+                        <span>: +41</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span data-i18n="footer_write_us">Schreib eus</span>
+                        <span>: example@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Social Links -->
+            <div class="footer-social-col">
+                <h3 class="footer-col-title" data-i18n="footer_follow_us">Folge eus</h3>
+                <div class="social-links-grid">
+                    <a href="#" class="social-link-item"><i class="fab fa-facebook-f facebook-bg"></i> <span>Facebook</span></a>
+                    <a href="https://www.instagram.com/bau2_unterlagsboden/" class="social-link-item"><i class="fab fa-instagram instagram-bg"></i> <span>Instagram</span></a>
+                    <a href="https://www.threads.com/@bau2_unterlagsboden" class="social-link-item"><i class="fab fa-threads threads-bg"></i> <span>Threads</span></a>
                 </div>
             </div>
+        </div>
+
+        <!-- Bottom Copyright Area -->
+        <div class="footer-bottom-bar">
+            <p>&copy; 2025 Bau 2 Bodenbeläge GmbH. All Rights Reserved.</p>
         </div>
     </footer>
 </body>

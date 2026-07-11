@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function () {
     ScrollReveal().reveal('.text', {
         origin: 'top',
@@ -16,30 +15,14 @@ document.addEventListener('DOMContentLoaded', function () {
         reset: false
     });
 
-    ScrollReveal().reveal('.banner2', {
+    ScrollReveal().reveal('.about-card', {
         origin: 'top',
         distance: '60px',
-        duration: 2500,
-        delay: 100,
+        duration: 1800,
+        delay: 150,
+        interval: 150,
         reset: false
     });
-
-    ScrollReveal().reveal('#paragraph', {
-        origin: 'top',
-        distance: '60px',
-        duration: 2500,
-        delay: 100,
-        reset: false
-    });
-
-    ScrollReveal().reveal('#h1', {
-        origin: 'top',
-        distance: '60px',
-        duration: 2500,
-        delay: 100,
-        reset: false
-    });
-
 });
 
 const hamburger = document.querySelector(".hamburger");
