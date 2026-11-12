@@ -61,9 +61,36 @@
     </section>
     <main>
         <div class="image-gallery">
-            <img src="../img/1img.jpg" alt="">
-            <img src="../img/2img.jpg" alt="">
-            <img src="../img/3img.jpg" alt="">
+            <img src="../img/1img.jpg" alt="Wave Facade Business Center" data-project="0" tabindex="0" role="button">
+            <img src="../img/2img.jpg" alt="Geometric Glass Pavilion" data-project="1" tabindex="0" role="button">
+            <img src="../img/3img.jpg" alt="Metropolitan Skyline Towers" data-project="2" tabindex="0" role="button">
+        </div>
+
+        <!-- Project Details Lightbox Modal -->
+        <div id="project-modal" class="project-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="project-modal-title">
+            <div class="project-modal-backdrop"></div>
+            <div class="project-modal-card">
+                <button type="button" class="project-modal-close" aria-label="Close">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+                <div class="project-modal-image-wrap">
+                    <img id="project-modal-img" src="" alt="">
+                    <button type="button" class="project-modal-nav project-modal-prev" aria-label="Previous project">
+                        <span class="material-symbols-outlined">chevron_left</span>
+                    </button>
+                    <button type="button" class="project-modal-nav project-modal-next" aria-label="Next project">
+                        <span class="material-symbols-outlined">chevron_right</span>
+                    </button>
+                </div>
+                <div class="project-modal-body">
+                    <div class="project-modal-meta">
+                        <span id="project-modal-tag" class="project-modal-tag"></span>
+                        <span id="project-modal-location" class="project-modal-location"></span>
+                    </div>
+                    <h2 id="project-modal-title" class="project-modal-title"></h2>
+                    <p id="project-modal-desc" class="project-modal-desc"></p>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer-section">

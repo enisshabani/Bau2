@@ -13,6 +13,18 @@ const translations = {
         
         "projects_title": "Einige unserer Projekte",
         "projects_desc": "Hier finden Sie eine Auswahl unserer Arbeiten. Jedes Projekt erzählt eine Geschichte von unserer Sorgfalt, unserem Handwerk und unserem Engagement, Räume zu schaffen, die Bestand haben.",
+        "project_1_tag": "Gewerbebau",
+        "project_1_location": "Zürich · 2024",
+        "project_1_title": "Business Center Wellenfassade",
+        "project_1_desc": "Ein moderner Gewerbekomplex mit präzise gefertigter, geschwungener Aluminiumfassade und fugenlosen Bodensystemen im Innenbereich. Entwickelt für optimales Tageslicht, hohen Akustikkomfort und langlebige Bauqualität.",
+        "project_2_tag": "Kultur- & Öffentlichkeitsbau",
+        "project_2_location": "Basel · 2023",
+        "project_2_title": "Geometrischer Glaspavillon",
+        "project_2_desc": "Eine ausdrucksstarke Stahl-Glas-Konstruktion, die freitragende Ausstellungsräume mit hochbelastbaren Unterlagsböden und geschliffenen Mineralbelägen verbindet. Gefertigt nach höchsten Schweizer Präzisionsstandards für stark frequentierte Räume.",
+        "project_3_tag": "Urbaner Hochbau",
+        "project_3_location": "Genf · 2024",
+        "project_3_title": "Metropolitan Skyline Towers",
+        "project_3_desc": "Mehrgeschossige Wohn- und Bürotürme mit Fokus auf urbane Nachhaltigkeit, Energieeffizienz und schallgedämmte Bodenaufbauten. Unser Team realisierte den gesamten Ausbau sowie präzise Nivellierarbeiten auf allen Etagen.",
         
         "about_who_title": "Wer sind wir?",
         "about_who_desc": "Bei der BAU Firm schaffen wir Räume, in denen Menschen leben, arbeiten und wachsen können. Mit Erfahrung, Handwerkskunst und modernen Ideen bauen wir nachhaltig und präzise. Unser Ziel ist es, Werte zu schaffen und Bauwerke zu hinterlassen, auf die man stolz sein kann.",
@@ -50,6 +62,18 @@ const translations = {
         
         "projects_title": "Some of our projects",
         "projects_desc": "Here you will find a selection of our work. Each project tells a story of our care, our craft, and our commitment to creating spaces that endure.",
+        "project_1_tag": "Commercial Architecture",
+        "project_1_location": "Zurich · 2024",
+        "project_1_title": "Wave Facade Business Center",
+        "project_1_desc": "A contemporary commercial complex featuring a precision-engineered curved aluminum facade and seamless interior flooring systems. Designed for maximum natural daylight, acoustic comfort, and long-term structural durability.",
+        "project_2_tag": "Cultural & Public",
+        "project_2_location": "Basel · 2023",
+        "project_2_title": "Geometric Glass Pavilion",
+        "project_2_desc": "An expressive steel-and-glass structure combining cantilevered exhibition spaces with heavy-duty screed and polished mineral floors. Built to strict Swiss precision standards for high-traffic public spaces.",
+        "project_3_tag": "Mixed-Use High-Rise",
+        "project_3_location": "Geneva · 2024",
+        "project_3_title": "Metropolitan Skyline Towers",
+        "project_3_desc": "Multi-story residential and office towers engineered for urban sustainability, thermal efficiency, and sound-insulated floor assemblies. Our team delivered complete structural finishing and precision floor leveling across all levels.",
         
         "about_who_title": "Who are we?",
         "about_who_desc": "At BAU Firm, we create spaces where people can live, work, and grow. With experience, craftsmanship, and modern ideas, we build sustainably and precisely. Our goal is to create value and leave behind buildings you can be proud of.",
@@ -86,6 +110,18 @@ const translations = {
         "dedication_desc": "Ogni progetto è per noi più di un semplice lavoro, è una promessa. Ci impegniamo per la precisione, la qualità e l'attenzione ai dettagli, affinché ogni costruzione sia un segno del nostro artigianato e della nostra cura.",
         "projects_title": "Alcuni dei nostri progetti",
         "projects_desc": "Qui troverete una selezione dei nostri lavori. Ogni progetto racconta una storia della nostra cura, del nostro mestiere e del nostro impegno a creare spazi che durano.",
+        "project_1_tag": "Architettura Commerciale",
+        "project_1_location": "Zurigo · 2024",
+        "project_1_title": "Business Center Facciata a Onde",
+        "project_1_desc": "Un complesso commerciale contemporaneo con facciata curva in alluminio progettata con precisione e pavimentazioni interne continue. Studiato per offrire massima luce naturale, comfort acustico e durata nel tempo.",
+        "project_2_tag": "Edilizia Culturale e Pubblica",
+        "project_2_location": "Basilea · 2023",
+        "project_2_title": "Padiglione Geometrico in Vetro",
+        "project_2_desc": "Una struttura espressiva in acciaio e vetro che combina spazi espositivi a sbalzo con massetti ad alta resistenza e pavimenti minerali levigati. Costruita secondo rigorosi standard svizzeri di precisione per ambienti ad alto traffico.",
+        "project_3_tag": "Edilizia Urbana Multipiano",
+        "project_3_location": "Ginevra · 2024",
+        "project_3_title": "Torri Metropolitan Skyline",
+        "project_3_desc": "Torri residenziali e direzionali progettate per la sostenibilità urbana, l'efficienza termica e l'isolamento acustico dei solai. Il nostro team ha curato le finiture strutturali e la livellatura di precisione su tutti i piani.",
         "about_who_title": "Chi siamo?",
         "about_who_desc": "In BAU Firm, creiamo spazi in cui le persone possono vivere, lavorare e crescere. Con esperienza, artigianato e idee moderne, costruiamo in modo sostenibile e preciso. Il nostro obiettivo è creare valore e lasciare edifici di cui potrete essere orgogliosi.",
         "about_what_title": "Cosa facciamo",
@@ -119,6 +155,18 @@ const translations = {
         "dedication_desc": "Chaque projet est pour nous plus qu'un simple travail, c'est une promesse. Nous nous engageons à la précision, à la qualité et à l'attention aux détails, pour que chaque construction soit un signe de notre artisanat et de notre soin.",
         "projects_title": "Certains de nos projets",
         "projects_desc": "Ici, vous trouverez une sélection de nos travaux. Chaque projet raconte une histoire de notre soin, de notre métier et de notre engagement à créer des espaces durables.",
+        "project_1_tag": "Architecture Commerciale",
+        "project_1_location": "Zurich · 2024",
+        "project_1_title": "Centre d'Affaires Façade Ondulée",
+        "project_1_desc": "Un complexe commercial contemporain doté d'une façade courbée en aluminium usinée avec précision et de revêtements de sol intérieurs sans joints. Conçu pour optimiser la lumière naturelle, le confort acoustique et la durabilité structurelle.",
+        "project_2_tag": "Bâtiment Culturel & Public",
+        "project_2_location": "Bâle · 2023",
+        "project_2_title": "Pavillon Géométrique en Verre",
+        "project_2_desc": "Une structure expressive en acier et verre associant des espaces d'exposition en porte-à-faux à des chapes haute résistance et des sols minéraux polis. Réalisée selon des normes suisses strictes pour les lieux très fréquentés.",
+        "project_3_tag": "Tour Urbaine Mixte",
+        "project_3_location": "Genève · 2024",
+        "project_3_title": "Tours Metropolitan Skyline",
+        "project_3_desc": "Des tours résidentielles et de bureaux conçues pour la durabilité urbaine, l'efficacité thermique et l'isolation acoustique des planchers. Notre équipe a assuré les finitions structurelles et le ragréage de précision à chaque étage.",
         "about_who_title": "Qui sommes-nous ?",
         "about_who_desc": "Chez BAU Firm, nous créons des espaces où les gens peuvent vivre, travailler et grandir. Avec expérience, artisanat et idées modernes, nous construisons de manière durable et précise. Notre objectif est de créer de la valeur et de laisser derrière nous des bâtiments dont vous pourrez être fiers.",
         "about_what_title": "Ce que nous faisons",
@@ -155,6 +203,8 @@ function setLanguage(lang) {
     langSelects.forEach(select => {
         select.value = lang;
     });
+
+    window.dispatchEvent(new CustomEvent('languageChanged', { detail: lang }));
 }
 
 document.addEventListener('DOMContentLoaded', () => {
